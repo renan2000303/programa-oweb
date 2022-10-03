@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.wrapper {
+
+display: grid;
+grid-template-columns: 50% 50%;
+grid-gap: 1em;
+overflow-x: hidden;
+
+}
+
+.wrapper>article {
+
+background: #eee;
+padding: 1em;
+}
+
+.wrapper>article:nth-child(odd) {
+
+background: red
+
+}
